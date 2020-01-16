@@ -1,0 +1,20 @@
+{
+    // Git
+    "git.autofetch": true,
+    // Python
+    "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+    // Linting 
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    // Formatting
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length", "100"
+    ],
+    // VSCode Misc
+    "breadcrumbs.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+}
